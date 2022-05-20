@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+</head>
+<body>
+    <script>
+   
+
+     let handleAge = () => {
+        if(handleAge >18){
+            return "成人";
+        }else if (handleAge < 18 && handleAge >12){
+            return "青少年";
+        }else {
+            return "兒童";
+        }
+     };
+     console.log(handleAge(10));
+
+
+
+     (function color (){
+        switch(color){
+            case "red":
+                console.log("紅色");
+            break;
+            case "blue":
+                console.log("藍色");
+            break;
+            default:
+                console.log("其他顏色");
+        }
+     })("pink"); 
+   
+   
+
+
+    </script>
+</body>
+</html>
